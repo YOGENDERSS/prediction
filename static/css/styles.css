@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1064&q=80');
+    background-image: url(https://wallpaperaccess.com/full/185364.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,13 @@ body {
 }
 
 .navbar {
-    background-color: #333333;
+    background-color: #ffa5a5;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
 }
 
 a {
@@ -22,8 +28,10 @@ a:hover {
 
 .col-sm-6 {
     padding: 10px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     background-color: black;
+    box-shadow: 9px 9px 10px #ff7575;
+    border-radius: 20px;
 }
 
 .btn {
@@ -33,4 +41,26 @@ a:hover {
 
 .navbar-header {
     margin: auto;
+}
+
+h3 {
+    color: #ffe806;
+    background-color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 8px rgb(255 232 3);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffe806;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 46px;
+    border-radius: 36px;
+}
+
+p {
+    background-color: rgb(255, 133, 133);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
