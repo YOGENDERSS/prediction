@@ -1,6 +1,10 @@
 body {
-    background-color: #e1f4f3;
+    background-image: url('https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1064&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -9,8 +13,24 @@ body {
 
 a {
     color: #f1f9f9;
+    text-align: center;
 }
 
 a:hover {
     color: #f0f0f0;
-  }
+}
+
+.col-sm-6 {
+    padding: 10px;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: black;
+}
+
+.btn {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.navbar-header {
+    margin: auto;
+}
